@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/chen2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="陈越老师的教学视频"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/mei3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="梅宏老师的教学视频"
+        android:textSize="30dp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/sun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="孙艳春老师的教学视频"
+        android:textSize="30dp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/qi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="齐治昌老师的教学视频"
+        android:textSize="30dp"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
