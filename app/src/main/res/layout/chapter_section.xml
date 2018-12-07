@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnNormal"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="视频资料">
+
+        </Button>
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="欢迎您:张宁"
+            android:paddingLeft="50dp"
+            android:textSize="20dp"
+            android:layout_marginTop="6dp"/>
+        <Button
+            android:id="@+id/back3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            android:layout_marginLeft="40dp"/>
+    </LinearLayout>
+
+        <ExpandableListView
+        android:id="@+id/expandedListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+            android:cacheColorHint="@color/colorPrimaryDark">
+
+    </ExpandableListView>
+
+</LinearLayout>
